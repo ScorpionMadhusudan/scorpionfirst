@@ -1,3 +1,6 @@
 this is my first prject
 This is Testing from Local machine
 This line is to Test the the Merge conflict added by Local Machine 
+this is my first prject 
+Testing from GIT
+This one is added from git to test merge
