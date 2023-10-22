@@ -28,7 +28,18 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - name: Check Git Version
+        run: |git --version
+
+         - name: Check Python Version
+        run: |git --version
+
+         - name: Check Java Version
+        run: |java --version
+
+         - name: Check Docker Version
+        run: |docker -v
+
+        
+       - name: Check kubectl Version
+        run: |kubectl --version
