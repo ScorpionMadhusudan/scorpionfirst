@@ -30,4 +30,4 @@ jobs:
         run: docker -v
 
       - name: Check kubectl Version
-        run: kubectl version
+        run: kubectl version --short
